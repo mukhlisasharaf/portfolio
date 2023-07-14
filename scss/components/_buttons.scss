@@ -1,0 +1,20 @@
+.button {
+ color: $white;
+ font-family: $main-font-family;
+ font-size: $button;
+ line-height: $button-lh;
+ font-weight: $weight;
+ letter-spacing: $button-ls;
+ text-transform: uppercase;
+ border-bottom: 2px solid $green;
+ padding-bottom: 10px;
+ transition: color 0.2s ease;
+
+ &:hover {
+  color: $green;
+ }
+
+ &:active {
+  opacity: 0.8;
+ }
+}

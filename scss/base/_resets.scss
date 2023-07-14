@@ -1,0 +1,52 @@
+
+*,*::after,*::before {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+*:focus {
+ outline: 0.1rem dashed $white;
+ outline-offset: 0.1rem;
+}
+
+html {
+ scroll-behavior: smooth;
+ font-size: 1.8rem;
+ height: 100%;
+}
+
+img {
+ display: flex;
+ object-fit: cover; /* contain */
+}
+
+a {
+ text-decoration: none;
+ display: inline-block;
+}
+
+ul,ol {
+ list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+ margin: 0;
+}
+
+body {
+ display: flex;
+ flex-direction: column;
+ height: 100%;
+ font-family: "Space Grotesk", "Arial", sans-serif;
+ background-color: $dark;
+}
+
+.container {
+ width: 100%;
+ max-width: 110rem; 
+ margin-left: auto;
+ margin-right: auto;
+ padding-left: 2rem; 
+ padding-right: 2rem;
+}
